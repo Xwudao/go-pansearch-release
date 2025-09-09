@@ -89,7 +89,7 @@ _任务界面 - 实时入库状态_
 如有问题或建议，请：
 
 - 提交 [Issue](https://github.com/Xwudao/go-pansearch-release/issues)
-- 发送邮件至：support@hunhepan.com
+- 发送邮件至：contact@hunhepan.com
 
 ---
 
