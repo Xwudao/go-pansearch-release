@@ -1,30 +1,56 @@
-# go-pansearch-release
+# PanSearch - 网盘搜索引擎
 
-使用 Go + React 编写的网盘搜索引擎程序
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-1.24+-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go Version" />
+  <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Version" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" />
+</p>
 
-## 简介
+<p align="center">
+  <strong>🚀 高性能网盘资源搜索引擎，让海量资源触手可及</strong>
+</p>
 
-PanSearch 是一款开源的网盘资源管理程序，帮助您高效管理网盘资源。它支持多种网盘类型，提供强大的搜索和分类功能。
+## 📖 简介
 
-## 功能特性
+PanSearch 是一款基于 Go + React 开发的现代化网盘搜索引擎，专为高效管理和搜索网盘资源而设计。通过先进的全文搜索技术和智能分类算法，帮助用户快速定位所需资源。</p>
 
-- 支持多种网盘类型（百度网盘、阿里云盘、夸克网盘、迅雷网盘等）
-- 强大的搜索功能
-- 资源分类管理
-- API 接口，支持扩展开发
-- 现代化 Web 界面
+### ✨ 核心优势
 
-## 系统要求
+- **🎯 精准搜索** - 基于 Elasticsearch 的全文搜索，支持模糊匹配和智能推荐
+- **⚡ 高性能** - Go 语言后端，处理大量数据游刃有余
+- **🌐 现代界面** - React 构建的响应式 Web 界面，用户体验优秀
+- **🔌 易扩展** - RESTful API 设计，支持二次开发
 
-- 操作系统：Linux、Windows、macOS
-- 内存：至少 2GB
-- 磁盘空间：至少 10GB
+## 🚀 功能特性
 
-### 依赖服务
+### 📁 多网盘支持
 
-- MySQL 5.7+
-- Elasticsearch 7.x 或 8.x（推荐安装 IK 分词插件）
-- Redis
+- **百度网盘** - 完整支持资源索引和搜索
+- **阿里云盘** - 高速搜索和资源管理
+- **夸克网盘** - 智能分类和标签管理
+- **迅雷网盘** - 批量操作和资源同步
+- **更多网盘** - 持续扩展支持
+
+### 🔍 智能搜索
+
+- **全文搜索** - 基于 Elasticsearch 的高性能搜索引擎
+- **模糊匹配** - 智能纠错和相似度匹配
+- **高级筛选** - 支持文件类型、大小、时间等多维度筛选
+- **搜索建议** - 实时搜索建议和热门关键词
+
+<!-- ### 📊 资源管理 -->
+
+<!-- - **智能分类** - 自动识别文件类型并分类
+- **标签系统** - 自定义标签管理和批量标记
+- **收藏夹** - 个人收藏和分享功能
+- **统计分析** - 资源使用情况和趋势分析 -->
+
+### 🔧 技术特性
+
+- **RESTful API** - 完整的 API 接口文档
+- **响应式设计** - 适配多种设备和屏幕尺寸
+<!-- - **实时更新** - WebSocket 实时数据同步 -->
+- **缓存优化** - Redis 缓存提升响应速度
 
 ## 文档
 
@@ -32,10 +58,41 @@ PanSearch 是一款开源的网盘资源管理程序，帮助您高效管理网�
 
 [https://docs.hunhepan.com/pansearch/](https://docs.hunhepan.com/pansearch/)
 
-## 贡献
+## 📱 截图
 
-欢迎提交 Issue
+![主界面](./images/image.png)
+_主界面 - 简洁现代的搜索界面_
 
-## 许可证
+![搜索结果](./images/image2.png)  
+_搜索结果 - 丰富的筛选和排序选项_
 
-本项目采用 MIT 许可证。
+![资源详情](./images/image3.png)
+_资源详情 - 详细的文件信息和操作_
+
+![设置页面](./images/image4.png)
+_设置页面 - 灵活的配置选项_
+
+![统计分析](./images/image5.png)
+_任务界面 - 实时入库状态_
+
+## 🤝 贡献
+
+我们欢迎所有形式的贡献！
+
+- 🐛 提交 Bug 报告
+- 💡 提出新功能建议
+- 📝 改进文档
+- 🔧 提交代码
+
+## 🙋‍♂️ 联系我们
+
+如有问题或建议，请：
+
+- 提交 [Issue](https://github.com/Xwudao/go-pansearch-release/issues)
+- 发送邮件至：support@hunhepan.com
+
+---
+
+<p align="center">
+  <strong>⭐ 如果这个项目对您有帮助，请给我们一个 Star！</strong>
+</p>
