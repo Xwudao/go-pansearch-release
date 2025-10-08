@@ -14,6 +14,10 @@
 
 PanSearch 是一款基于 Go + React 开发的现代化网盘搜索引擎，专为高效管理和搜索网盘资源而设计。通过先进的全文搜索技术和智能分类算法，帮助用户快速定位所需资源。</p>
 
+安装视频教程：https://www.bilibili.com/video/BV1EBxRzKECG/
+
+自定义前端模板教程：https://www.bilibili.com/video/BV1wJ4Fz9ELE/
+
 ### ✨ 核心优势
 
 - **🎯 精准搜索** - 基于 Elasticsearch 的全文搜索，支持模糊匹配和智能推荐
